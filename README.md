@@ -62,3 +62,13 @@ MPSH_end{&context}
 
 Blit 0, 0, 0 ; Blits shape 0, which is the id #2 in the MPSH file.
 ```
+
+## ImpishEd
+One way to create the MPSH file is to use the ImpishEd editor. With it, you can not only create MPSH files, but also standard Blitz Basic Shapes files.
+
+You can add multiple images, cut out individual shapes from each image, and merge them all into one MPSH or Shapes file.
+
+You can also save out a JSON file that contains all of you shape information in order to pick up where you left off.
+
+### Limitations
+Currently ImpishEd only works with ***uncompressed ILMB/IFF*** images.
